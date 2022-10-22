@@ -36,6 +36,7 @@
         select {
           margin-bottom: 20px;
           height: 40px;
+          cursor: pointer;
           option {
             color: black;
           }
@@ -73,6 +74,17 @@
           }
           &:nth-child(2) {
             background-color: #2196f3;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .container {
+      form {
+        .fields {
+          & > * {
+            width: 100%;
           }
         }
       }

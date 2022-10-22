@@ -5,21 +5,21 @@
       <input type="text" formControlName="title" placeholder="Job title" />
 
       <select formControlName="sector">
-        <option value="" disabled select hidden>sector</option>
+        <option value="" disabled select hidden>Sector</option>
         <option *ngFor="let sector of sectors" [ngValue]="sector.value">
           {{ sector.label }}
         </option>
       </select>
 
       <select formControlName="country">
-        <option value="" disabled select hidden>country</option>
+        <option value="" disabled select hidden>Country</option>
         <option *ngFor="let country of countries" [ngValue]="country.value">
           {{ country.label }}
         </option>
       </select>
 
       <select formControlName="city">
-        <option value="" disabled select hidden>city</option>
+        <option value="" disabled select hidden>City</option>
         <option *ngFor="let city of cities" [ngValue]="city.value">
           {{ city.label }}
         </option>
