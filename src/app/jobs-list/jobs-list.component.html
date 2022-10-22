@@ -18,6 +18,7 @@
   </app-dialog>
 
   <app-pagination
+    *ngIf="total > 1"
     [current]="current"
     [total]="total"
     (goTo)="onGoTo($event)"

@@ -12,22 +12,16 @@ export class JobsListComponent implements OnInit {
   jobs: Job[] = [];
 
   public current: number = 1;
-  public items = [...Array(this.jobs.length).keys()].map(
-    (item) => `item ${++item}`
-  );
   public jobsToDisplay: Job[] = [];
   public perPage = 10;
-  public total = Math.ceil(this.items.length / this.perPage);
+  public total: number = 0;
 
   constructor(protected jobService: JobService) {}
 
   ngOnInit(): void {
     this.jobService.jobsListObservable.subscribe((jobs) => {
       this.jobs = jobs;
-      this.items = [...Array(this.jobs.length).keys()].map(
-        (x) => `item ${++x}`
-      );
-      this.total = Math.ceil(this.jobs.length / this.perPage);
+      this.total = Math.ceil(jobs.length / this.perPage);
       this.jobsToDisplay = this.paginate(this.current, this.perPage);
     });
   }
