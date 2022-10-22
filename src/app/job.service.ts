@@ -24,7 +24,6 @@ export class JobService {
   }
 
   setFilters(newFilters: Filters) {
-    console.log('newFilters', newFilters.search);
     this.filters = { ...newFilters };
     this.FilterJobsList(this.filters);
   }

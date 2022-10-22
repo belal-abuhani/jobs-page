@@ -34,8 +34,8 @@ export class JobsListComponent implements OnInit {
 
   onClick() {
     this.showDialog = true;
-    console.log('s');
   }
+
   onAddJob(job: Job) {
     this.jobService.addJob(job);
   }
