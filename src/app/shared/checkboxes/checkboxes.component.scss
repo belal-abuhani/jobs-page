@@ -1,0 +1,36 @@
+:host {
+  .container {
+    margin-bottom: 20px;
+    .name {
+      margin-bottom: 5px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .checkboxes {
+      display: flex;
+      flex-direction: column;
+      .checkbox {
+        display: flex;
+        input {
+          margin-right: 15px;
+          background-color: red;
+          appearance: auto;
+        }
+        .label {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .container {
+      .checkboxes {
+        flex-direction: row;
+        flex-wrap: wrap;
+        .checkbox {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

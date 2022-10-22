@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="search">
+    <app-search-input
+      class="search-input"
+      (inputChange)="onSearch($event)"
+      [placeholder]="'Search By job Title'"
+    ></app-search-input>
+    <button (click)="onClick()">Add New Job</button>
+  </div>
+
+  <app-job *ngFor="let job of jobsToDisplay; let index = index" [jobData]="job">
+  </app-job>
+  <app-dialog *ngIf="showDialog" (setShowDialog)="setShowDialog(false)">
+    <app-add-job
+      (dataSubmit)="onAddJob($event)"
+      (setShowDialog)="setShowDialog(false)"
+    ></app-add-job>
+  </app-dialog>
+
+  <app-pagination
+    [current]="current"
+    [total]="total"
+    (goTo)="onGoTo($event)"
+    (next)="onNext($event)"
+    (previous)="onPrevious($event)"
+  ></app-pagination>
+</div>

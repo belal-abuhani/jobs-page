@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="name">{{ name }}</div>
+  <div class="checkboxes">
+    <div
+      class="checkbox"
+      *ngFor="let checkboxe of checkboxes; let index = index"
+    >
+      <input
+        type="checkbox"
+        [value]="checkboxe.value"
+        (change)="onCheckChange($event)"
+      />
+      <span class="label">{{ checkboxe.label }}</span>
+    </div>
+  </div>
+</div>

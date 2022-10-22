@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="image"><img src="../../assets/images/no-image.png" /></div>
+  <div class="text">
+    <span class="title">{{ jobData.title }}</span>
+    <span class="location">{{ jobData.city }},{{ jobData.country }}</span>
+    <span class="sector">{{ jobData.sector }}</span>
+    <span class="description">
+      {{ jobData.description }}
+    </span>
+  </div>
+  <div class="icons">
+    <img src="../../assets/icons/view.svg" />
+    <img src="../../assets/icons/trash.svg" (click)="onDelet(jobData.id)" />
+  </div>
+</div>

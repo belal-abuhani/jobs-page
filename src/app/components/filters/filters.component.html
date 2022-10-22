@@ -1,0 +1,8 @@
+<div class="container">
+  <app-checkboxes
+    *ngFor="let filter of filters"
+    [name]="filter.name"
+    [checkboxes]="filter.checkboxes"
+    (onCahnge)="onChange($event)"
+  ></app-checkboxes>
+</div>

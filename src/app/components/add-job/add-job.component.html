@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="header">Add New Job Post</div>
+  <form [formGroup]="addJob" (ngSubmit)="onSubmit()">
+    <div class="fields">
+      <input type="text" formControlName="title" placeholder="Job title" />
+
+      <select formControlName="sector">
+        <option value="" disabled select hidden>sector</option>
+        <option *ngFor="let sector of sectors" [ngValue]="sector.value">
+          {{ sector.label }}
+        </option>
+      </select>
+
+      <select formControlName="country">
+        <option value="" disabled select hidden>country</option>
+        <option *ngFor="let country of countries" [ngValue]="country.value">
+          {{ country.label }}
+        </option>
+      </select>
+
+      <select formControlName="city">
+        <option value="" disabled select hidden>city</option>
+        <option *ngFor="let city of cities" [ngValue]="city.value">
+          {{ city.label }}
+        </option>
+      </select>
+
+      <textarea
+        type="text"
+        formControlName="description"
+        placeholder="Description"
+      ></textarea>
+    </div>
+    <div class="buttons">
+      <button (click)="onCancel()">Cancel</button>
+      <button type="submit" [disabled]="!addJob.valid">Add New Job</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,12 @@
+:host {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+
+    @media screen and (max-width: 640px) {
+      flex-direction: column;
+    }
+  }
+}
