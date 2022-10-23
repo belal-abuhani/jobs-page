@@ -19,7 +19,7 @@ export class JobService {
   }
 
   addJob(job: Job) {
-    this.jobs.push({ ...job, id: Math.random() });
+    this.jobs = [{ ...job, id: Math.random() }, ...this.jobs];
     this.jobsList.next([...this.jobs]);
   }
 

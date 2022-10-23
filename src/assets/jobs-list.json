@@ -20,7 +20,7 @@
   {
     "id": 3,
     "image": "aa",
-    "title": "Devp",
+    "title": "devp",
     "city": "nablus",
     "country": "palestine",
     "sector": "airlines",
@@ -47,8 +47,8 @@
   {
     "id": 6,
     "image": "aa",
-    "title": "Devp",
-    "city": "nablus",
+    "title": "devp",
+    "city": "ramallah",
     "country": "palestine",
     "sector": "airlines",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -66,7 +66,7 @@
     "id": 21,
     "image": "aa",
     "title": "frontend",
-    "city": "nablus",
+    "city": "ramallah",
     "country": "palestine",
     "sector": "sales",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -74,8 +74,8 @@
   {
     "id": 32,
     "image": "aa",
-    "title": "Devp",
-    "city": "nablus",
+    "title": "devp",
+    "city": "ramallah",
     "country": "palestine",
     "sector": "airlines",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -93,7 +93,7 @@
     "id": 25,
     "image": "aa",
     "title": "frontend",
-    "city": "nablus",
+    "city": "ramallah",
     "country": "palestine",
     "sector": "sales",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -101,8 +101,8 @@
   {
     "id": 36,
     "image": "aa",
-    "title": "Devp",
-    "city": "nablus",
+    "title": "devp",
+    "city": "ramallah",
     "country": "lebanon",
     "sector": "airlines",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -111,7 +111,7 @@
     "id": 155,
     "image": "aa",
     "title": "backend",
-    "city": "lebanon",
+    "city": "ramallah",
     "country": "lebanon",
     "sector": "sales",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -128,7 +128,7 @@
   {
     "id": 335,
     "image": "aa",
-    "title": "Devp",
+    "title": "devp",
     "city": "nablus",
     "country": "palestine",
     "sector": "airlines",
@@ -155,7 +155,7 @@
   {
     "id": 304,
     "image": "aa",
-    "title": "Devp",
+    "title": "devp",
     "city": "nablus",
     "country": "jordan",
     "sector": "airlines",
@@ -182,7 +182,7 @@
   {
     "id": 333,
     "image": "aa",
-    "title": "Devp",
+    "title": "devp",
     "city": "nablus",
     "country": "palestine",
     "sector": "airlines",
