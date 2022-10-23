@@ -3,7 +3,7 @@
     "id": 1,
     "image": "aa",
     "title": "backend",
-    "city": "lebanon",
+    "city": "nablus",
     "country": "palestine",
     "sector": "administration",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -12,8 +12,8 @@
     "id": 2,
     "image": "aa",
     "title": "frontend",
-    "city": "nablus",
-    "country": "palestine",
+    "city": "doha",
+    "country": "qatar",
     "sector": "computer software",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
   },
@@ -21,8 +21,8 @@
     "id": 3,
     "image": "aa",
     "title": "devp",
-    "city": "nablus",
-    "country": "palestine",
+    "city": "doha",
+    "country": "qatar",
     "sector": "airlines",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
   },
@@ -30,7 +30,7 @@
     "id": 4,
     "image": "aa",
     "title": "backend",
-    "city": "lebanon",
+    "city": "ramallah",
     "country": "palestine",
     "sector": "sales",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -57,7 +57,7 @@
     "id": 64,
     "image": "aa",
     "title": "backend",
-    "city": "lebanon",
+    "city": "tulkarem",
     "country": "palestine",
     "sector": "sales",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -84,8 +84,8 @@
     "id": 14,
     "image": "aa",
     "title": "backend",
-    "city": "lebanon",
-    "country": "palestine",
+    "city": "beirut",
+    "country": "lebanon",
     "sector": "sales",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
   },
@@ -102,7 +102,7 @@
     "id": 36,
     "image": "aa",
     "title": "devp",
-    "city": "ramallah",
+    "city": "beirut",
     "country": "lebanon",
     "sector": "airlines",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -111,7 +111,7 @@
     "id": 155,
     "image": "aa",
     "title": "backend",
-    "city": "ramallah",
+    "city": "beirut",
     "country": "lebanon",
     "sector": "sales",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -138,7 +138,7 @@
     "id": 142,
     "image": "aa",
     "title": "backend",
-    "city": "lebanon",
+    "city": "tulkarem",
     "country": "palestine",
     "sector": "sales",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -147,7 +147,7 @@
     "id": 200,
     "image": "aa",
     "title": "frontend",
-    "city": "nablus",
+    "city": "amman",
     "country": "jordan",
     "sector": "airlines",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -156,7 +156,7 @@
     "id": 304,
     "image": "aa",
     "title": "devp",
-    "city": "nablus",
+    "city": "amman",
     "country": "jordan",
     "sector": "airlines",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -165,7 +165,7 @@
     "id": 140,
     "image": "aa",
     "title": "backend",
-    "city": "lebanon",
+    "city": "ramallah",
     "country": "palestine",
     "sector": "sales",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
@@ -174,7 +174,7 @@
     "id": 276,
     "image": "aa",
     "title": "frontend",
-    "city": "nablus",
+    "city": "amman",
     "country": "jordan",
     "sector": "sales",
     "description": "Lorem ipsum dolor sit amet consectetur adip"
