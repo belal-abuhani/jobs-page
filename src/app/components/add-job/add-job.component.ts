@@ -22,9 +22,17 @@ export class AddJobComponent implements OnInit {
     { value: 'jordan', label: 'Jordan' },
     { value: 'lebanon', label: 'Lebanon' },
     { value: 'saudiArabia', label: 'Saudi Arabia' },
+    { value: 'qatar', label: 'Qatar' },
   ];
 
-  cities = [{ value: 'beirut', label: 'beirut' }];
+  cities = [
+    { value: 'beirut', label: 'Beirut' },
+    { value: 'nablus', label: 'Nablus' },
+    { value: 'doha', label: 'Doha' },
+    { value: 'ramallah', label: 'Ramallah' },
+    { value: 'tulkarem', label: 'Tulkarem' },
+    { value: 'amman', label: 'Amman' },
+  ];
 
   addJob = new FormGroup({
     title: new FormControl('', [Validators.required, Validators.minLength(4)]),

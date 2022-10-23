@@ -11,6 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AddJobComponent } from './components/add-job/add-job.component';
 import { DialogComponent } from './shared/dialog/dialog.component';
 import { SearchInputComponent } from './shared/search-input/search-input.component';
+import { JobService } from './job.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,7 @@ import { SearchInputComponent } from './shared/search-input/search-input.compone
     PaginationComponent,
   ],
   imports: [BrowserModule, ReactiveFormsModule],
-  providers: [],
+  providers: [JobService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

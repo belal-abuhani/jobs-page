@@ -1,4 +1,6 @@
 <div class="container">
-  <app-filters [filters]="filters"></app-filters>
+  <app-filters
+    [filters]="jobService.filtersListObservable | async"
+  ></app-filters>
   <app-jobs-list></app-jobs-list>
 </div>

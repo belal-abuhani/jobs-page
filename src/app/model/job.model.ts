@@ -14,3 +14,8 @@ export interface Filters {
   sector: string[];
   country: string[];
 }
+
+export type FiltersInput = {
+  name: string;
+  checkboxes: { value: string; isChecked: boolean }[];
+}[];

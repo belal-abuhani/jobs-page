@@ -6,7 +6,7 @@ import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./checkboxes.component.scss'],
 })
 export class CheckboxesComponent implements OnInit {
-  @Input() checkboxes: { value: string; label: string }[] = [];
+  @Input() checkboxes: { value: string; isChecked: boolean }[] = [];
   @Input() name: string = '';
   @Output() onCahnge = new EventEmitter();
 

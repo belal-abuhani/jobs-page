@@ -40,7 +40,7 @@ export class JobsListComponent implements OnInit {
 
   onSearch(value: string) {
     this.jobService.setFilters({
-      ...this.jobService.filters,
+      ...this.jobService.selectedFilters,
       search: value,
     });
   }

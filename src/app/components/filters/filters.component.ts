@@ -1,3 +1,4 @@
+import { FiltersInput } from './../../model/job.model';
 import { JobService } from '../../job.service';
 import { Component, Input, OnInit } from '@angular/core';
 import { Filters } from 'src/app/model/job.model';
@@ -8,10 +9,7 @@ import { Filters } from 'src/app/model/job.model';
   styleUrls: ['./filters.component.scss'],
 })
 export class sectorComponent implements OnInit {
-  @Input() filters: {
-    name: string;
-    checkboxes: { value: string; label: string }[];
-  }[] = [];
+  @Input() filters: FiltersInput | null = [];
 
   selectedFilters: Omit<Filters, 'search'> = {
     city: [],
@@ -26,7 +24,7 @@ export class sectorComponent implements OnInit {
   onChange({ name, values }: { name: string; values: string }) {
     this.selectedFilters = { ...this.selectedFilters, [name]: values };
     this.jobService.setFilters({
-      ...this.jobService.filters,
+      ...this.jobService.selectedFilters,
       ...this.selectedFilters,
     });
   }

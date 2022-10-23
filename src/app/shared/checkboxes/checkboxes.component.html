@@ -9,8 +9,9 @@
         type="checkbox"
         [value]="checkboxe.value"
         (change)="onCheckChange($event)"
+        [checked]="checkboxe.isChecked"
       />
-      <span class="label">{{ checkboxe.label }}</span>
+      <span class="label">{{ checkboxe.value }}</span>
     </div>
   </div>
 </div>
