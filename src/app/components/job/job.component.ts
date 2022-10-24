@@ -1,7 +1,6 @@
 import { JobService } from '../../job.service';
 import { Component, Input, OnInit } from '@angular/core';
 import { Job } from 'src/app/model/job.model';
-// import * as CaretIcon from 'raw-loader!..';
 
 @Component({
   selector: 'app-job',
@@ -9,8 +8,7 @@ import { Job } from 'src/app/model/job.model';
   styleUrls: ['./job.component.scss'],
 })
 export class JobComponent implements OnInit {
-  @Input()
-  jobData!: Job;
+  @Input() jobData!: Job;
   constructor(protected jobService: JobService) {}
 
   ngOnInit(): void {}
